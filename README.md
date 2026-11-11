@@ -8,6 +8,15 @@
   A lightweight Windows system tray flyout for controlling Spotify.
 </p>
 
+
+
+
+https://github.com/user-attachments/assets/339ee940-b439-4e56-9682-3960ca846d8d
+
+
+
+
+
 ## Features
 
 - System tray icon that opens a native-style flyout above the taskbar
