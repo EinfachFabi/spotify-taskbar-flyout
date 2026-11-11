@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="AppName" xml:space="preserve"><value>Spotify Taskbar Flyout</value></data>
+  <data name="MenuOpenSpotify" xml:space="preserve"><value>Open Spotify</value></data>
+  <data name="MenuPlay" xml:space="preserve"><value>Play</value></data>
+  <data name="MenuPause" xml:space="preserve"><value>Pause</value></data>
+  <data name="MenuPrevious" xml:space="preserve"><value>Previous track</value></data>
+  <data name="MenuNext" xml:space="preserve"><value>Next track</value></data>
+  <data name="MenuPlaylists" xml:space="preserve"><value>Playlists</value></data>
+  <data name="MenuNoPlaylists" xml:space="preserve"><value>No playlists loaded</value></data>
+  <data name="MenuRefreshPlaylists" xml:space="preserve"><value>Refresh playlists</value></data>
+  <data name="MenuConnectSpotify" xml:space="preserve"><value>Connect Spotify account...</value></data>
+  <data name="MenuDisconnectSpotify" xml:space="preserve"><value>Disconnect Spotify</value></data>
+  <data name="MenuConnectedAs" xml:space="preserve"><value>Spotify: {0}</value></data>
+  <data name="MenuStartWithWindows" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="MenuAbout" xml:space="preserve"><value>About (v{0})</value></data>
+  <data name="MenuExit" xml:space="preserve"><value>Exit</value></data>
+  <data name="FlyoutNotRunning" xml:space="preserve"><value>Spotify is not running</value></data>
+  <data name="FlyoutClickToOpen" xml:space="preserve"><value>Click here to open Spotify</value></data>
+  <data name="FlyoutPlaying" xml:space="preserve"><value>Playing</value></data>
+  <data name="FlyoutPaused" xml:space="preserve"><value>Paused</value></data>
+  <data name="FlyoutPlaylists" xml:space="preserve"><value>Playlists</value></data>
+  <data name="FlyoutConnectPrompt" xml:space="preserve"><value>Connect Spotify to switch playlists and control in-app volume.</value></data>
+  <data name="FlyoutConnectButton" xml:space="preserve"><value>Connect Spotify</value></data>
+  <data name="FlyoutLoadingPlaylists" xml:space="preserve"><value>Loading playlists...</value></data>
+  <data name="FlyoutNoPlaylists" xml:space="preserve"><value>No playlists found</value></data>
+  <data name="FlyoutTrackSingle" xml:space="preserve"><value>1 track</value></data>
+  <data name="FlyoutTracksCount" xml:space="preserve"><value>{0} tracks</value></data>
+  <data name="FlyoutPlaylistLabel" xml:space="preserve"><value>Playlist</value></data>
+  <data name="FlyoutFolderPlaylistSingle" xml:space="preserve"><value>1 playlist</value></data>
+  <data name="FlyoutFolderPlaylistsCount" xml:space="preserve"><value>{0} playlists</value></data>
+  <data name="FolderMoveTo" xml:space="preserve"><value>Move to folder</value></data>
+  <data name="FolderNew" xml:space="preserve"><value>New folder...</value></data>
+  <data name="FolderRemoveFrom" xml:space="preserve"><value>Remove from folder</value></data>
+  <data name="FolderRename" xml:space="preserve"><value>Rename folder...</value></data>
+  <data name="FolderDelete" xml:space="preserve"><value>Delete folder</value></data>
+  <data name="FolderPromptTitle" xml:space="preserve"><value>Playlist Folder</value></data>
+  <data name="FolderPromptLabel" xml:space="preserve"><value>Folder name:</value></data>
+  <data name="TipShuffle" xml:space="preserve"><value>Shuffle</value></data>
+  <data name="TipPrevious" xml:space="preserve"><value>Previous track</value></data>
+  <data name="TipNext" xml:space="preserve"><value>Next track</value></data>
+  <data name="TipPlay" xml:space="preserve"><value>Play</value></data>
+  <data name="TipPause" xml:space="preserve"><value>Pause</value></data>
+  <data name="TipRepeat" xml:space="preserve"><value>Repeat</value></data>
+  <data name="TipMute" xml:space="preserve"><value>Mute Spotify</value></data>
+  <data name="TipUnmute" xml:space="preserve"><value>Unmute Spotify</value></data>
+  <data name="TipVolume" xml:space="preserve"><value>Spotify in-app volume</value></data>
+  <data name="TipVolumeUnavailable" xml:space="preserve"><value>Connect Spotify to control in-app volume</value></data>
+  <data name="TipRefreshPlaylists" xml:space="preserve"><value>Refresh playlists</value></data>
+  <data name="TipMenu" xml:space="preserve"><value>Menu</value></data>
+  <data name="TipOpenSpotify" xml:space="preserve"><value>Open Spotify</value></data>
+  <data name="TipSeek" xml:space="preserve"><value>{0} / {1} – click to seek</value></data>
+  <data name="ErrorSpotifyLaunch" xml:space="preserve"><value>Spotify could not be started. Is Spotify installed?</value></data>
+  <data name="AboutTitle" xml:space="preserve"><value>About Spotify Taskbar Flyout</value></data>
+  <data name="AboutText" xml:space="preserve"><value>Spotify Taskbar Flyout v{0}
+
+Controls Spotify from the Windows system tray via a native-style flyout menu.
+
+• Left-click tray icon: open/close flyout
+• Middle-click tray icon: play / pause
+• Right-click tray icon: quick menu &amp; playlists
+• Connect Spotify: enables in-app volume control &amp; playlist switching
+
+This project is not affiliated with Spotify AB.</value></data>
+</root>

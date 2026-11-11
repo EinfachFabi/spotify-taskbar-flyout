@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>spotify-taskbar-flyout</AssemblyName>
+    <RootNamespace>SpotifyTaskbarFlyout</RootNamespace>
+    <NeutralLanguage>en</NeutralLanguage>
+
+    <Version>0.1.0</Version>
+    <Product>Spotify Taskbar Flyout</Product>
+    <Description>A native-style Windows system tray flyout to control Spotify.</Description>
+    <Copyright>Copyright (c) 2026 EinfachFabi</Copyright>
+    <Authors>EinfachFabi</Authors>
+  </PropertyGroup>
+
+  <!-- Settings for "dotnet publish" (release EXE as a single file). -->
+  <PropertyGroup Condition="'$(RuntimeIdentifier)' != ''">
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(SelfContained)' == 'true'">
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\app.ico" LogicalName="SpotifyTaskbarFlyout.app.ico" />
+    <EmbeddedResource Update="Localization\Strings.resx" LogicalName="SpotifyTaskbarFlyout.Strings.resources" />
+  </ItemGroup>
+
+</Project>
